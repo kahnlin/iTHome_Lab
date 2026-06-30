@@ -1,0 +1,31 @@
+*.db
+.DS_Store
+.web
+.states
+assets/external/
+# Python 編譯暫存檔
+__pycache__/
+*.py[cod]
+
+# 虛擬環境 (非常重要，絕對不要上傳這個！)
+venv/
+.venv/
+env/
+
+# PyCharm 設定檔 (您剛轉移過來，這個一定要加)
+.idea/
+
+# VS Code 設定檔 (看個人習慣，通常建議忽略)
+.vscode/
+
+# 環境變數檔 (如果有存 API Key 密碼，絕對不能上傳)
+.env
+
+# 執行結果
+*.csv
+
+# 資料夾內容忽略 (但保留資料夾結構)
+input_pdfs/*
+!input_pdfs/.gitkeep
+output_data/*
+!output_data/.gitkeep
