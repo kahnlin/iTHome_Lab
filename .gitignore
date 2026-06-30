@@ -25,7 +25,5 @@ env/
 *.csv
 
 # 資料夾內容忽略 (但保留資料夾結構)
-input_pdfs/*
-!input_pdfs/.gitkeep
 output_data/*
 !output_data/.gitkeep
